@@ -9,6 +9,9 @@ At the end of this laboratory activity, the student should be able to:
   2. distinguish transpose from complex-conjugate transpose operations;
   3. express a simultaneous linear system in matrix form; and
   4. solve and check a linear system using the inverse method and Cramer’s Rule
+```
+NOTE: SEMICOLON (;) WASN'T USED IN SOME LINES TO SHOW THE PROCESS
+```
 
 A. TRANPOSE OPERATIONS
 ---
@@ -21,6 +24,13 @@ A’
 A.’
 ```
 where A is replaced by R and then by Z.
+
+The following were used in this problem:
+  - `disp("")` - used display message in the command window
+  - `transpose(x)` - used to transpose a matrix
+  - `A'` - used to transpose a matrix
+  - `A.'` - used to transpose a matrix (element-by-element)
+
 ```matlab
 R = [5 -2 0 7; 1 3 -4 2; 6 0 8 -1]
 Z = [2+3*i -1+4*i 5-2*i; -3+i 6 2+5*i]
@@ -117,6 +127,11 @@ Create the coefficient matrix A and right-hand-side vector b. Then compute the s
 
 **2. Cramer's Rule** : replace one column of A at a time with b, use determinants, and store the result in x_cramer. A loop is optional
 
+The following were used in this problem:
+  - `disp("")` - used display message in the command window
+  - `det(x)` - used to get the determinant of a matrix
+  - `inv(x)` - built-in, used to get the inverse of a matrix
+  - `norm(x)` - used to get the norm of vector or matrix
 
 ```matlab
 A = [2 -1 3 2; 1 4 -2 1; 3 2 1 -1; -2 3 4 2]
