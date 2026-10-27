@@ -31,6 +31,7 @@ The following were used in this problem:
   - `A'` - used to transpose a matrix
   - `A.'` - used to transpose a matrix (element-by-element)
 
+### CODE:
 ```matlab
 R = [5 -2 0 7; 1 3 -4 2; 6 0 8 -1]
 Z = [2+3*i -1+4*i 5-2*i; -3+i 6 2+5*i]
@@ -133,6 +134,7 @@ The following were used in this problem:
   - `inv(x)` - built-in, used to get the inverse of a matrix
   - `norm(x)` - used to get the norm of vector or matrix
 
+### CODE:
 ```matlab
 A = [2 -1 3 2; 1 4 -2 1; 3 2 1 -1; -2 3 4 2]
 b = [16; -7; 6; 7]
