@@ -262,7 +262,7 @@ norm(x_inv - x_cramer): 1.1102e-16
 norm(A * x_inv - b): 2.6645e-15
 ```
 
-To view the program for PA5: download [ECE2112_PA5](link), open and run on Matlab.
+To view the program for PA5: download [ECE2112_PA5](https://github.com/kathleenhazelhulipas-cloud/ECE2112_Hulipas_PA5/blob/main/Hulipas_PA5.m), open and run on Matlab.
 
 ## **README file Version History:**
 - October 20, 2026 - Drafted Readme File
